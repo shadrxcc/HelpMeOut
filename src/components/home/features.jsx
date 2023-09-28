@@ -1,5 +1,5 @@
 import { features } from "./data";
-import videorepo from "../assets/videorepo.svg";
+import videorepo from "../../assets/videorepo.svg";
 
 const Features = () => {
   return (

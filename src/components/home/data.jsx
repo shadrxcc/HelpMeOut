@@ -1,14 +1,14 @@
-import screenrecord from "../assets/screen-record.svg";
-import record from "../assets/recordings.svg";
-import share from "../assets/share.svg";
+import screenrecord from "../../assets/screen-record.svg";
+import record from "../../assets/recordings.svg";
+import share from "../../assets/share.svg";
 
-import one from "../assets/one.svg";
-import two from "../assets/two.svg";
-import three from "../assets/three.svg";
+import one from "../../assets/one.svg";
+import two from "../../assets/two.svg";
+import three from "../../assets/three.svg";
 
-import rec1 from "../assets/rec-1.svg";
-import rec2 from "../assets/rec-2.svg";
-import rec3 from "../assets/rec-3.svg";
+import rec1 from "../../assets/rec-1.svg";
+import rec2 from "../../assets/rec-2.svg";
+import rec3 from "../../assets/rec-3.svg";
 
 export const features = [
   {

@@ -2,11 +2,14 @@ import logo from "../assets/logocombined-white.svg";
 
 const Footer = () => {
   return (
-    <div id="footer" className="flex flex-col p-4 sm:p-8 gap-y-8 sm:flex-row items-start lg:p-[100px]">
+    <div
+      id="footer"
+      className="flex flex-col p-4 sm:p-8 gap-y-8 sm:flex-row items-start lg:p-[100px]"
+    >
       <img className="w-[10rem]" src={logo} alt="logo" />
 
       <div className="text-white gap-y-8 w-full justify-evenly flex flex-col sm:flex-row sm:items-center">
-      <div className="flex flex-col gap-y-7">
+        <div className="flex flex-col gap-y-7">
           <h6>Menu</h6>
           <ul className="text-base flex flex-col gap-y-6" id="work">
             <li>Home</li>

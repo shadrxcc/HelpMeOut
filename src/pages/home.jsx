@@ -1,8 +1,8 @@
-import Features from "../components/features";
+import Features from "../components/home/features";
 import Footer from "../components/footer";
-import Header from "../components/header";
-import Hero from "../components/hero";
-import How from "../components/how";
+import Header from "../components/home/header";
+import Hero from "../components/home/hero";
+import How from "../components/home/how";
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
         <Features />
         <How />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

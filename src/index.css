@@ -49,12 +49,40 @@ html body {
 }
 
 #footer {
-  background: var(--primary-main, #120B48);
+  background: var(--primary-main, #120b48);
 }
 
 h6 {
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.authbtn {
+  border-radius: 10px;
+  border: 1px solid #141414;
+  background: #fff;
+  display: flex;
+  padding: 9px 123px 9px 133px;
+  /* justify-content: flex-end; */
+  align-items: center;
+  color: #141414;
+  width: 100%;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.16px;
+}
+
+#receiver {
+  border-radius: 16px;
+  border: 0.5px solid var(--primary-primary-50, #E7E7ED);
+  background: rgba(182, 179, 198, 0.20);
+}
+
+#secure {
+  background: rgba(231, 231, 237, 0.20);
 }
