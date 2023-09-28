@@ -4,7 +4,7 @@ import facebook from "../../assets/facebookk.svg";
 import telegram from "../../assets/telegram.svg";
 import whatsapp from "../../assets/whatsapp.svg";
 
-const VideoReady = () => {
+const VideoReady = (props) => {
   return (
     <div className="text-[#141414] lg:pr-8 lg:border-r flex flex-col gap-y-10 flex-1">
       <h3 className="text-[45px] font-bold">Your video is ready!</h3>
@@ -28,7 +28,7 @@ const VideoReady = () => {
             placeholder="enter email of receiver"
             id="work"
           />
-          <button className=" rounded-lg bg-[#605C84] text-white text-base font-medium py-2.5 px-4">
+          <button onClick={props.setSent} className=" rounded-lg bg-[#605C84] text-white text-base font-medium py-2.5 px-4">
             Send
           </button>
         </div>

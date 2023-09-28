@@ -79,10 +79,64 @@ h6 {
 
 #receiver {
   border-radius: 16px;
-  border: 0.5px solid var(--primary-primary-50, #E7E7ED);
-  background: rgba(182, 179, 198, 0.20);
+  border: 0.5px solid var(--primary-primary-50, #e7e7ed);
+  background: rgba(182, 179, 198, 0.2);
 }
 
 #secure {
-  background: rgba(231, 231, 237, 0.20);
+  background: rgba(231, 231, 237, 0.2);
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(32, 32, 32, 0.75);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 30;
+  animation: scale 0.4s ease-in-out forwards;
+  transition: all;
+}
+
+@keyframes scale {
+  0% {
+    transform: scaleX(0);
+  }
+
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.sent {
+  width: 350px;
+
+  flex-shrink: 0;
+}
+
+.search {
+  border-radius: var(--Inner-Radius, 12px);
+  border: 1px solid var(--primary-primary-50, #e7e7ed);
+  background: rgba(182, 179, 198, 0.14);
+}
+
+.video-card {
+  border-radius: var(--Outer-Radius, 24px);
+  border: 1px solid rgba(182, 179, 198, 0.6);
+  background: rgba(251, 251, 251, 0.5);
 }
