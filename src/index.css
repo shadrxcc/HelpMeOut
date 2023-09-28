@@ -47,3 +47,14 @@ html body {
   border-radius: 8px;
   background: var(--primary-main, #120b48);
 }
+
+#footer {
+  background: var(--primary-main, #120B48);
+}
+
+h6 {
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}

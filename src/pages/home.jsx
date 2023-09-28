@@ -1,4 +1,5 @@
 import Features from "../components/features";
+import Footer from "../components/footer";
 import Header from "../components/header";
 import Hero from "../components/hero";
 import How from "../components/how";
@@ -12,6 +13,7 @@ const Home = () => {
         <Features />
         <How />
       </div>
+      <Footer/>
     </div>
   );
 };
