@@ -1,13 +1,17 @@
-import Header from "../components/header"
-import Hero from "../components/hero"
+import Features from "../components/features";
+import Header from "../components/header";
+import Hero from "../components/hero";
 
 const Home = () => {
   return (
     <div>
-        <Header/>
-        <Hero/>
+      <Header />
+      <div className="flex flex-col gap-y-14">
+        <Hero />
+        <Features />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
