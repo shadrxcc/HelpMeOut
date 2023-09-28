@@ -12,10 +12,18 @@
   src: url(/src/assets/WorkSans-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: inter;
+  src: url(/src/assets/Inter-VariableFont_slnt\,wght.ttf);
+}
+
 #work {
   font-family: work sans;
 }
 
+#inter {
+  font-family: inter;
+}
 
 html body {
   font-family: sora;
@@ -29,8 +37,13 @@ html body {
   -webkit-text-size-adjust: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  background: #F4F6F8;
+  background: #f4f6f8;
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+}
+
+.button {
+  border-radius: 8px;
+  background: var(--primary-main, #120b48);
 }
