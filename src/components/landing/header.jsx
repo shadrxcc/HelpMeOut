@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <header className="flex bg-white py-[22px] px-4 sm:px-8 lg:px-[100px] items-center justify-between">
       <div>
-        <img className="w-3/4" src={logo} alt="help-me-out-logo" />
+        <Link to={`/`}>
+          <img className="w-3/4" src={logo} alt="help-me-out-logo" />
+        </Link>
       </div>
 
       <div
@@ -17,8 +19,9 @@ const Header = () => {
       </div>
 
       <div>
-        <Link to={`/login`}><p className="text-lg font-semibold">Get Started</p></Link>
-        
+        <Link to={`/login`}>
+          <p className="text-lg font-semibold">Get Started</p>
+        </Link>
       </div>
     </header>
   );
