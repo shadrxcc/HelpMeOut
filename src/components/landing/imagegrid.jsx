@@ -7,8 +7,8 @@ import frame3 from "../../assets/frame-3.svg";
 const Imagegrid = () => {
   return (
     <div className="flex-1">
-      <div className="flex gap-x-[14px] items-center">
-        <div className="flex flex-col gap-y-[14px]">
+      <div className="flex gap-x-1 sm:gap-x-[14px] items-center">
+        <div className="flex flex-col gap-y-1 sm:gap-y-[14px]">
           <img src={frame1} alt="" />
           <img src={frame2} alt="" />
         </div>

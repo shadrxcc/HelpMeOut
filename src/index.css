@@ -64,7 +64,7 @@ h6 {
   border: 1px solid #141414;
   background: #fff;
   display: flex;
-  padding: 9px 123px 9px 133px;
+  /* padding: 9px 123px 9px 133px; */
   /* justify-content: flex-end; */
   align-items: center;
   color: #141414;

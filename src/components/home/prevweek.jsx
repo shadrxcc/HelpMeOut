@@ -8,7 +8,7 @@ const PrevWeek = () => {
       Files from last week
       </p>
 
-      <div className="grid gap-x-16 sm:grid-cols-2">
+      <div className="grid gap-y-7 gap-x-16 sm:grid-cols-2">
         {recents.map((video) => {
           return (
             <VideoCard

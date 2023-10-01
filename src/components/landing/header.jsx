@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/logocombined.svg";
 
 const Header = () => {
   return (
-    <header className="flex bg-white py-[22px] px-4 sm:px-6 lg:px-0 items-center justify-around">
+    <header className="flex bg-white py-[22px] px-4 sm:px-8 lg:px-[100px] items-center justify-between">
       <div>
         <img className="w-3/4" src={logo} alt="help-me-out-logo" />
       </div>
@@ -16,7 +17,8 @@ const Header = () => {
       </div>
 
       <div>
-        <p className="text-lg font-semibold">Get Started</p>
+        <Link to={`/login`}><p className="text-lg font-semibold">Get Started</p></Link>
+        
       </div>
     </header>
   );
