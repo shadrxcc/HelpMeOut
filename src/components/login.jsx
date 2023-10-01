@@ -7,10 +7,10 @@ const Login = () => {
   return (
     <div className="flex flex-col gap-y-8">
       <div className="flex flex-col gap-y-6">
-        <Authbtns className="gap-x-4 py-[9px] sm:px-[123px]">
+        <Authbtns className="gap-x-4 py-[9px] flex justify-center sm:px-[123px]">
           <img src={google} alt="" /> Continue with Google
         </Authbtns>
-        <Authbtns className="gap-x-4 py-[9px] sm:px-[123px]">
+        <Authbtns className="gap-x-4 py-[9px] flex justify-center sm:px-[123px]">
           <img src={facebook} alt="" /> Continue with Facebook
         </Authbtns>
       </div>
