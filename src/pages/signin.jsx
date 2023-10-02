@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../src/assets/logocombined.svg";
 import Login from "../components/login";
 
@@ -7,7 +8,9 @@ const Signin = () => {
       id="inter"
       className="bg-white h-full px-4 sm:px-8 lg:px-[100px] flex flex-col gap-y-12 py-20 "
     >
-      <img className="w-[11rem]" src={logo} alt="" />
+      <Link to={`/`}>
+        <img className="w-[11rem]" src={logo} alt="" />
+      </Link>
 
       <div className="flex flex-col gap-y-6 w-fit mx-auto justify-center sm:items-center">
         <div className="flex flex-col items-center text-center gap-y-2">
