@@ -4,10 +4,12 @@ import VideoFile from "./pages/file";
 import Landing from "./pages/landing";
 import Home from "./pages/home";
 import Singlevideo from "./pages/singlevideo";
+import ScrollToTop from "./ScrollToTop";
 
 const RouteSwitch = () => {
   return (
     <>
+    <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Landing />}></Route>
         <Route path="/home" element={<Home />} />

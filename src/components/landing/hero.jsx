@@ -1,6 +1,6 @@
 import Button from "../../ui/button";
 import arrow from "../../assets/arrow-right.svg";
-import Imagegrid from "./imagegrid";
+// import Imagegrid from "./imagegrid";
 import img from "../../assets/hero.webp";
 
 const Hero = () => {

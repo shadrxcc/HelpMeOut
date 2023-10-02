@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/logocombined-white.svg";
 
 const Footer = () => {
@@ -12,27 +13,27 @@ const Footer = () => {
         <div className="flex flex-col gap-y-7">
           <h6>Menu</h6>
           <ul className="text-base flex flex-col gap-y-6" id="work">
-            <li>Home</li>
-            <li>Converter</li>
-            <li>How it Works</li>
+            <Link to={`/home`}><li className=" cursor-pointer">Home</li></Link>
+            <li className=" cursor-pointer">Converter</li>
+            <li className=" cursor-pointer">How it Works</li>
           </ul>
         </div>
 
         <div className="flex flex-col gap-y-7">
           <h6>About us</h6>
           <ul className="text-base flex flex-col gap-y-6" id="work">
-            <li>About</li>
-            <li>Contact Us</li>
-            <li>Privacy Policy</li>
+            <li className=" cursor-pointer">About</li>
+            <li className=" cursor-pointer">Contact Us</li>
+            <li className=" cursor-pointer">Privacy Policy</li>
           </ul>
         </div>
 
         <div className="flex flex-col gap-y-7">
           <h6>Screen Record</h6>
           <ul className="text-base flex flex-col gap-y-6" id="work">
-            <li>Browser Window</li>
-            <li>Desktop</li>
-            <li>Application</li>
+            <li className=" cursor-pointer">Browser Window</li>
+            <li className=" cursor-pointer">Desktop</li>
+            <li className=" cursor-pointer">Application</li>
           </ul>
         </div>
       </div>
