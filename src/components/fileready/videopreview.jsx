@@ -36,7 +36,7 @@ const VideoPreview = () => {
         <div className="flex flex-col gap-y-4">
           <p className="text-2xl font-semibold">Transcript</p>
           <select
-            className="rounded text-base text-[#9D9D9D] p-2"
+            className="rounded w-fit text-base text-[#9D9D9D] p-2"
             name="lang"
             id="lang"
           >
