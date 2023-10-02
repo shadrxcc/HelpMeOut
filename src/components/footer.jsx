@@ -7,13 +7,18 @@ const Footer = () => {
       id="footer"
       className="flex flex-col p-8 sm:p-8 gap-y-8 sm:flex-row items-start lg:p-[100px]"
     >
-      <img className="w-[10rem]" src={logo} alt="logo" />
+      <Link to={`/`}>
+        {" "}
+        <img className="w-[10rem]" src={logo} alt="logo" />
+      </Link>
 
       <div className="text-white gap-y-8 w-full justify-evenly flex flex-col sm:flex-row sm:items-center">
         <div className="flex flex-col gap-y-7">
           <h6>Menu</h6>
           <ul className="text-base flex flex-col gap-y-6" id="work">
-            <Link to={`/home`}><li className=" cursor-pointer">Home</li></Link>
+            <Link to={`/home`}>
+              <li className=" cursor-pointer">Home</li>
+            </Link>
             <li className=" cursor-pointer">Converter</li>
             <li className=" cursor-pointer">How it Works</li>
           </ul>

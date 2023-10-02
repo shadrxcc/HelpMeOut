@@ -18,7 +18,7 @@ const VideoReady = (props) => {
             <p className="text-lg sm:text-2xl text-[#413C6D] font-semibold">
               Untitled_Video_20232509{" "}
             </p>
-            <img className="w-[30px] sm:w-full" src={edit} alt="" />
+            <img className="w-[30px] sm:w-fit" src={edit} alt="" />
           </span>
         </div>
 
