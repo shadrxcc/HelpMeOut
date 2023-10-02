@@ -14,7 +14,7 @@ const Navbar = () => {
 
       <div className="flex gap-x-2 items-center">
         <img src={pfp} alt="" />
-        <p id="work" className="text-base">
+        <p id="work" className="text-base hidden sm:block">
           John Mark
         </p>
         <img src={arrow} alt="" />

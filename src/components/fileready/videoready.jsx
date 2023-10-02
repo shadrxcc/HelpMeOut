@@ -7,16 +7,18 @@ import whatsapp from "../../assets/whatsapp.svg";
 const VideoReady = (props) => {
   return (
     <div className="text-[#141414] lg:pr-8 lg:border-r flex flex-col gap-y-10 flex-1">
-      <h3 className="text-[45px] font-bold">Your video is ready!</h3>
+      <h3 className="text-2xl sm:text-[45px] font-bold">
+        Your video is ready!
+      </h3>
 
       <div className="flex flex-col gap-y-16">
         <div>
           <label htmlFor="name">Name</label>
-          <span className="flex gap-x-6 items-center">
-            <p className="text-2xl text-[#413C6D] font-semibold">
+          <span className="flex flex-col gap-y-2.5 sm:flex-row gap-x-6 sm:items-center">
+            <p className="text-lg sm:text-2xl text-[#413C6D] font-semibold">
               Untitled_Video_20232509{" "}
             </p>
-            <img src={edit} alt="" />
+            <img className="w-[30px] sm:w-full" src={edit} alt="" />
           </span>
         </div>
 
@@ -28,7 +30,10 @@ const VideoReady = (props) => {
             placeholder="enter email of receiver"
             id="work"
           />
-          <button onClick={props.setSent} className=" rounded-lg bg-[#605C84] text-white text-base font-medium py-2.5 px-4">
+          <button
+            onClick={props.setSent}
+            className=" rounded-lg bg-[#605C84] text-white text-base font-medium py-2.5 px-4"
+          >
             Send
           </button>
         </div>
@@ -50,17 +55,17 @@ const VideoReady = (props) => {
           </div>
         </section>
 
-        <section>
+        <section className="flex flex-col gap-y-6">
           <p>Share your video </p>
 
-          <div className="flex gap-x-4 items-center">
-            <button className="flex items-center  justify-center gap-x-2 text-base font-medium text-[#08051E] rounded-md border border-[#0A0628] py-3 px-4">
+          <div className="flex flex-wrap gap-y-4 gap-x-4 items-center">
+            <button className="flex items-center w-full sm:w-fit  justify-center gap-x-2 text-base font-medium text-[#08051E] rounded-md border border-[#0A0628] py-3 px-4">
               <img src={facebook} alt="" /> Facebook
             </button>
-            <button className="flex items-center  justify-center gap-x-2 text-base font-medium text-[#08051E] rounded-md border border-[#0A0628] py-3 px-4">
+            <button className="flex items-center w-full sm:w-fit  justify-center gap-x-2 text-base font-medium text-[#08051E] rounded-md border border-[#0A0628] py-3 px-4">
               <img src={whatsapp} alt="" /> Whatsapp
             </button>
-            <button className="flex items-center  justify-center gap-x-2 text-base font-medium text-[#08051E] rounded-md border border-[#0A0628] py-3 px-4">
+            <button className="flex items-center w-full sm:w-fit  justify-center gap-x-2 text-base font-medium text-[#08051E] rounded-md border border-[#0A0628] py-3 px-4">
               <img src={telegram} alt="" /> Telegram
             </button>
           </div>

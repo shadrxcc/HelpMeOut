@@ -1,4 +1,5 @@
 import Detail from "../components/details/detail";
+import Footer from "../components/footer";
 import Navbar from "../layout/navbar";
 
 const Singlevideo = () => {
@@ -15,6 +16,7 @@ const Singlevideo = () => {
 
         <Detail />
       </div>
+      <Footer/>
     </>
   );
 };

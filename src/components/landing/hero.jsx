@@ -1,6 +1,7 @@
 import Button from "../../ui/button";
 import arrow from "../../assets/arrow-right.svg";
 import Imagegrid from "./imagegrid";
+// import img from "../../assets/hero.svg";
 
 const Hero = () => {
   return (
@@ -20,7 +21,7 @@ const Hero = () => {
           Install HelpMeOut <img src={arrow} alt="" />
         </Button>
       </div>
-
+      {/* <img className="flex-1" src={img} alt="" /> */}
       <Imagegrid />
     </div>
   );

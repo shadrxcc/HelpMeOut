@@ -9,11 +9,11 @@ const VideoPreview = () => {
       <div className="border mx-auto w-fit rounded-lg">
         <img src={videoframe} alt="" />
         <hr className="h-[3px] bg-[#120B48] w-2/4 rounded-[24px]" />
-        <div className="flex py-3.5 px-10 items-center justify-between">
+        <div className="flex flex-col gap-y-4 sm:flex-row py-3.5 px-10 items-center justify-between">
           <p className="text-[#939393] text-xl" id="inter">
             0:30 / 3:00
           </p>
-          <div id="work" className="flex gap-x-10 items-center">
+          <div id="work" className="flex gap-x-4 sm:gap-x-10 items-center">
             <span className="flex flex-col items-center gap-x-2">
               <img src={play} alt="" />
               <p className="text-xs font-medium">Play</p>
