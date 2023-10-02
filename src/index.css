@@ -18,15 +18,18 @@
 }
 
 #work {
-  font-family: work;
+  font-family: work, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
 }
 
 #inter {
-  font-family: inter;
+  font-family: inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
 }
 
 html body {
-  font-family: sora;
+  font-family: sora, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   scroll-behavior: smooth;
