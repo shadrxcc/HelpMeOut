@@ -6,9 +6,9 @@ import one from "../../assets/one.svg";
 import two from "../../assets/two.svg";
 import three from "../../assets/three.svg";
 
-import rec1 from "../../assets/rec-1.svg";
-import rec2 from "../../assets/rec-2.svg";
-import rec3 from "../../assets/rec-3.svg";
+import rec1 from "../../assets/rec-1.webp";
+import rec2 from "../../assets/rec-2.webp";
+import rec3 from "../../assets/rec-3.webp";
 
 export const features = [
   {

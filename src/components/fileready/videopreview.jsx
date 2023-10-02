@@ -1,4 +1,4 @@
-import videoframe from "../../assets/videoframe.svg";
+import videoframe from "../../assets/videoframe.webp";
 import play from "../../assets/play-pause.svg";
 import volume from "../../assets/volume.svg";
 import settings from "../../assets/settings.svg";

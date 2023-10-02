@@ -1,5 +1,5 @@
-import video1 from "../../assets/video.svg";
-import video2 from "../../assets/video2.svg";
+import video1 from "../../assets/video.webp";
+import video2 from "../../assets/video2.webp";
 
 export const recents = [
     {

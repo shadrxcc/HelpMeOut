@@ -1,5 +1,5 @@
 import edit from "../../assets/edit.svg";
-import video from "../../assets/videoweb.svg";
+import video from "../../assets/videoweb.webp";
 import copy from "../../assets/copy.svg";
 import facebook from "../../assets/facebookk.svg";
 import telegram from "../../assets/telegram.svg";

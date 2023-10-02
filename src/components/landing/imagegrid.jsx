@@ -1,8 +1,6 @@
-import frame1 from "../../assets/frame-1.svg";
-import frame2 from "../../assets/frame-2.svg";
-import frame3 from "../../assets/frame-3.svg";
-// import grid_blue from "../assets/grid-blue.svg";
-// import grid_grey from "../assets/grid-grey.svg";
+import frame1 from "../../assets/frame-1.webp";
+import frame2 from "../../assets/frame-2.webp";
+import frame3 from "../../assets/frame-3.webp";
 
 const Imagegrid = () => {
   return (
