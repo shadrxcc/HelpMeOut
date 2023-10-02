@@ -6,11 +6,11 @@ import settings from "../../assets/settings.svg";
 const VideoPreview = () => {
   return (
     <div className="flex-1 flex flex-col gap-y-10">
-      <div className="border mx-auto w-fit rounded-lg">
-        <img src={videoframe} alt="" />
+      <div className="border mx-auto w-full rounded-lg">
+        <img className="w-full" src={videoframe} alt="" />
         <hr className="h-[3px] bg-[#120B48] w-2/4 rounded-[24px]" />
         <div className="flex flex-col gap-y-4 sm:flex-row py-3.5 px-10 items-center justify-between">
-          <p className="text-[#939393] text-xl" id="inter">
+          <p className="text-[#939393] sm:text-sm xl:text-xl" id="inter">
             0:30 / 3:00
           </p>
           <div id="work" className="flex gap-x-4 sm:gap-x-10 items-center">
