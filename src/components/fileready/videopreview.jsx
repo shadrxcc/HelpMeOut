@@ -2,26 +2,11 @@ import videoframe from "../../assets/videoframe.webp";
 import play from "../../assets/play-pause.svg";
 import volume from "../../assets/volume.svg";
 import settings from "../../assets/settings.svg";
-import { useEffect, useRef } from "react";
 
 const VideoPreview = () => {
-  const videoRef = useRef(null)
-
-  useEffect(() => {
-    // const currentVideoID = videoID
-    // if (currentVideoID && videoRef.current) {
-    //   videoRef.current.src = `http://web-02.cofucan.tech/srce/api/video/stream/${currentVideoID}`
-    // }
-    videoRef.current.src = `http://web-02.cofucan.tech/srce/api/recording/zXZN8xaDQwckDKQ`
-  }, [])
   return (
     <div className="flex-1 flex flex-col gap-y-10">
       <div className="border mx-auto w-full rounded-lg">
-       
-          <video ref={videoRef} controls className="w-full h-full">
-            <source type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
         <img className="w-full" src={videoframe} alt="" />
         <hr className="h-[3px] bg-[#120B48] w-2/4 rounded-[24px]" />
         <div className="flex flex-col gap-y-4 sm:flex-row py-3.5 px-10 items-center justify-between">
